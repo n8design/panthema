@@ -1,10 +1,10 @@
 # PANTHEMA - Webpart
 
-!["Panthema screen as it is embeded in SharePoint"](https://github.com/n8design/panthema/blob/dev/docs/assets/panthema-logo.png?raw=true "Panthema screen as it is embeded in SharePoint")
+!["Panthema screen as it is embeded in SharePoint"](https://github.com/n8design/panthema/blob/master/docs/assets/panthema-logo.png?raw=true "Panthema screen as it is embeded in SharePoint")
 
 Panthema is a web part that shows all used theme colors on SharePoint site. It display the color information as well ass and the applied theme slots. This web part is useful to show the full spectrum on where colors from the theme have been applied on background and text colors. It can be used for debugging as well as show and document themes.
 
-!["Panthema video preview"](https://github.com/n8design/panthema/blob/dev/docs/assets/panthema-video.gif?raw=true "Panthema in action")
+!["Panthema video preview"](https://github.com/n8design/panthema/blob/master/docs/assets/panthema-video.gif?raw=true "Panthema in action")
 
 This web part can only be used in Office 365.
 
@@ -12,7 +12,7 @@ This web part can only be used in Office 365.
 
 Place this web part on any SharePoint page to display the currently used colors by the theme.
 
-!["Panthema screen as it is embeded in SharePoint"](https://github.com/n8design/panthema/blob/dev/docs/assets/panthema-screen.png?raw=true "Panthema screen as it is embeded in SharePoint")
+!["Panthema screen as it is embeded in SharePoint"](https://github.com/n8design/panthema/blob/master/docs/assets/panthema-screen.png?raw=true "Panthema screen as it is embeded in SharePoint")
 
 ## Installation
 
@@ -21,7 +21,7 @@ Place this web part on any SharePoint page to display the currently used colors 
 1. Deploy the web part
 1. Add web part to any page in Office 365
 
-For more information please check out - [How to install client-side solution](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/serve-your-web-part-in-a-sharepoint-page#install-the-client-side-solution-on-your-site)
+For more information please check out - [How to install client-side solution](https://docs.microsoft.com/en-us/sharepoint/master/spfx/web-parts/get-started/serve-your-web-part-in-a-sharepoint-page#install-the-client-side-solution-on-your-site)
 
 ## Issues and Suggestions
 

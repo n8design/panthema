@@ -1,0 +1,12 @@
+<div class="{{styles.PanthemaWebPart}}">
+  {{#each colors}}
+  {{!-- .panthema-item>.panthema-color>.panthema-description>.panthema-colorcode+.panthema-usage --}}
+  <div class="panthema-item">
+    <div class="panthema-color" style="background-color: {{ this.color }}"></div>
+    <div class="panthema-description">
+      <div class="panthema-colorcode">{{ this.color }}</div>
+      <div class="panthema-usage">{{ this.usagestring }}</div>
+    </div>
+  </div>
+  {{/each}}
+</div>

@@ -1,0 +1,56 @@
+$height: 8vw;
+$height: 200px;
+
+.panthema-description {
+  box-sizing: border-box;
+  background-color: rgba(white, 0.75);
+  padding: 0.75em 1em;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: $height;
+  width: 100%;
+  min-height: $height + $height / 3;
+  transition: margin 0.4s ease-in-out 0, opacity 2s ease-in-out 0;
+}
+
+.panthema-color {
+  display: inline-block;
+  width: $height;
+  height: $height;
+}
+
+.panthema-colorcode {
+  font-size: $ms-font-size-l;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 0.25em 0;
+}
+
+.panthema-usage {
+  width: 100%;
+  word-break: break-all;
+  opacity: 0;
+}
+
+.panthema-item {
+  display: inline-block;
+  border: 1px black solid;
+  position: relative;
+  height: $height + $height / 3;
+  box-sizing: border-box;
+  margin: 0.5em;
+  overflow: auto;
+
+  &:hover {
+
+    .panthema-description {
+      margin-top: 0;
+    }
+
+    .panthema-usage {
+      opacity: 1;
+    }
+  }
+}

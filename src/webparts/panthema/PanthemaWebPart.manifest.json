@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "79df36c3-95ce-45c1-a227-e9cf8ba7f28c",
+  "alias": "PanthemaWebPart",
+  "componentType": "WebPart",
+
+  // The "*" signifies that the version should be taken from the package.json
+  "version": "*",
+  "manifestVersion": 2,
+
+  // If true, the component can only be installed on sites where Custom Script is allowed.
+  // Components that allow authors to embed arbitrary script code should set this to true.
+  // https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
+  "requiresCustomScript": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", // Other
+    "group": { "default": "Developer" },
+    "title": { "default": "Panthema" },
+    "description": { "default": "Panthema is a web part that shows all colors used in the current theme" },
+    "officeFabricIconFontName": "Page",
+    "iconImageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAADF0lEQVRIicVVP0tkMRCfTN6ujZ1gIyLYyCJYWNoIx1WCnX4DC8HrLO4DWFlYCuIXsBBsBLETC2tRC7HZzkILC1k783LMJJOZPI/jmtsLhEwm8/c3M+85AIgwxtWQq8HPH9D3LfR8gD4G6BGNAfo+beGn+yfLTuQz3QNMeJXvi50m6+Xz+7chIDn0GMG7FryLgJlu6I4tvxHd+BYaohGgh0Lr6WW7vH2ywTLZFi12SErsFJPTQrNwSAZdZNpjADQOmuwkGY1VkElfkykOMTOSs2CUknMUpWygJ7I5GwlYgiNnyJnHFFyW1QxJQJSdQlqir+ALJbMulEk35sAMvDl4zbADaeOi1oMNBzVc1ThlwTp0cp2FX9Noa5gUbKNoLQtcqNGTYfSaRdPVoVo7lccckHFoUjdQNSZDrU9qiJ4JroLPNA8KzJk2XdpWTeBdt83jFyilLmzQt9WI2NrbIDRDWx/8M5TeQNmFnzu8QGlO6laIX2to50q3hTJq96IOtfJiB5lgRqftZOjqJtDdGRPpSmeMd/QlS+l+zLSZwxrGakT+Csq26kqViaVxEFo7h22ZlRRp0HZ3Cpv/LZShA6UNIDlzGZU6w/yowxrr4c5Ge+XjHM031nyhbJNhctZAp0tLrUoG+evgNZvyN/EKG5pmQgw6WnnYpWGklrT+zw84xvH4dM4lSMe5GvF1enrK58zMDKysrPyzEEqGZ2dnsLCwAJeXlzAcDuHj44P36+srvxNN/Pv7e+bRXfjEE74soS0PbIb08PT0BG9vbzA5OQn7+/swNzcHt7e3sLq6WhSOjo5gb28Pnp+fYXNzk2V3dnZY5vj4GNbX11nu/PyceZTIycnJV4fT09Oc4draGkd9c3PDezAYwMPDA8tsbGzwnZyQ4+vra+Y/Pj7C/Px8cWSDI7uEjLwXh1NTU7C0tMT0xcUFbG9vw/v7O2xtbcFoNILl5WV2KIveKcPDw0MOYnZ2tjK8u7sLBwcHsLi4CFdXV4UPaSpiHI1GUdbLy0uhhS88udvz7u6ON9HdbWXJFw/+OOdwvF8aAPgFY7+dVFR3kDcAAAAASUVORK5CYII=",
+    "properties": {
+      "description": "Panthema"
+    }
+  }]
+}

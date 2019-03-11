@@ -1,0 +1,20 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "panthema-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/panthema/PanthemaWebPart.js",
+          "manifest": "./src/webparts/panthema/PanthemaWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "handlebars": "./node_modules/handlebars/dist/handlebars.amd.min.js"
+  },
+  "localizedResources": {
+    "PanthemaWebPartStrings": "lib/webparts/panthema/loc/{locale}.js"
+  }
+}

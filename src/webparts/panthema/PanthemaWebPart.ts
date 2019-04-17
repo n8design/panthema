@@ -33,7 +33,7 @@ export default class PanthemaWebPart extends BaseClientSideWebPart<IPanthemaWebP
 
     const colorBlocksValues = themeSlotKeys.map(key => {
       return themeSlots[key];
-    })
+    });
 
     const colorUsage = colorBlocksValues.filter(
       (color, index, self) => {
@@ -54,9 +54,9 @@ export default class PanthemaWebPart extends BaseClientSideWebPart<IPanthemaWebP
           color: colorValue,
           usage: usage,
           usagestring: usage.join(', ')
-        }
+        };
       }
-    )
+    );
     // .sort(
     //   (a, b) => {
     //     if (a.color > b.color) {

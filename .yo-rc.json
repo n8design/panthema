@@ -14,8 +14,8 @@
     "environment": "spo",
     "framework": "none",
     "isCreatingSolution": true,
-    "version": "1.7.1",
     "libraryName": "panthema",
+    "version": "1.8.1",
     "libraryId": "945562fe-620b-4b48-a2e5-201e9850e8cc",
     "packageManager": "npm",
     "componentType": "webpart"

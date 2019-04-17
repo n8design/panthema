@@ -41,7 +41,7 @@ $height: 200px;
   height: $height + $height / 3;
   box-sizing: border-box;
   margin: 0.5em;
-  overflow: auto;
+  overflow: hidden;
 
   &:hover {
 

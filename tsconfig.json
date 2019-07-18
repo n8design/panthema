@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
   "extends": "./node_modules/@microsoft/rush-stack-compiler-2.9/includes/tsconfig-web.json",
   "compilerOptions": {
@@ -37,43 +36,3 @@
     "lib"
   ]
 }
-=======
-{
-  "extends": "./node_modules/@microsoft/rush-stack-compiler-2.7/includes/tsconfig-web.json",
-  "compilerOptions": {
-    "target": "es5",
-    "forceConsistentCasingInFileNames": true,
-    "module": "esnext",
-    "moduleResolution": "node",
-    "jsx": "react",
-    "declaration": true,
-    "sourceMap": true,
-    "experimentalDecorators": true,
-    "skipLibCheck": true,
-    "outDir": "lib",
-    "inlineSources": false,
-    "strictNullChecks": false,
-    "noUnusedLocals": false,
-    "typeRoots": [
-      "./node_modules/@types",
-      "./node_modules/@microsoft"
-    ],
-    "types": [
-      "es6-promise",
-      "webpack-env"
-    ],
-    "lib": [
-      "es5",
-      "dom",
-      "es2015.collection"
-    ]
-  },
-  "include": [
-    "src/**/*.ts"
-  ],
-  "exclude": [
-    "node_modules",
-    "lib"
-  ]
-}
->>>>>>> c59e1cc1760989bda2a80feb1007bd69de523e15

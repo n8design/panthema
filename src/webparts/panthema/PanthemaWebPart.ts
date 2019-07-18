@@ -1,6 +1,15 @@
 import { Version } from '@microsoft/sp-core-library';
+<<<<<<< HEAD
 import { BaseClientSideWebPart } from "@microsoft/sp-webpart-base";
 import { IPropertyPaneConfiguration, PropertyPaneTextField } from "@microsoft/sp-property-pane";
+=======
+import { BaseClientSideWebPart } from '@microsoft/sp-webpart-base';
+import {
+  IPropertyPaneConfiguration,
+  PropertyPaneTextField
+} from '@microsoft/sp-property-pane';
+
+>>>>>>> c59e1cc1760989bda2a80feb1007bd69de523e15
 import { escape } from '@microsoft/sp-lodash-subset';
 
 import styles from './PanthemaWebPart.module.scss';
@@ -29,7 +38,7 @@ export default class PanthemaWebPart extends BaseClientSideWebPart<IPanthemaWebP
 
     const colorBlocksValues = themeSlotKeys.map(key => {
       return themeSlots[key];
-    })
+    });
 
     const colorUsage = colorBlocksValues.filter(
       (color, index, self) => {
@@ -50,9 +59,9 @@ export default class PanthemaWebPart extends BaseClientSideWebPart<IPanthemaWebP
           color: colorValue,
           usage: usage,
           usagestring: usage.join(', ')
-        }
+        };
       }
-    )
+    );
     // .sort(
     //   (a, b) => {
     //     if (a.color > b.color) {

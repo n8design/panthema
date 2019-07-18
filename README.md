@@ -16,7 +16,7 @@ Place this web part on any SharePoint page to display the currently used colors 
 
 ## Installation
 
-1. Download the solution from the [release page](https://github.com/n8design/panthema/releases) or [directly](https://github.com/n8design/panthema/releases/download/v1.0.0/panthema.sppkg)
+1. Download the solution from the [release page](https://github.com/n8design/panthema/releases) or [directly](https://github.com/n8design/panthema/releases/download/v1.0.1/panthema.sppkg)
 1. Add `panthema.sppkg` file to your tenant
 1. Deploy the web part
 1. Add web part to any page in Office 365

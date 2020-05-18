@@ -34,6 +34,7 @@ export default class PanthemaWebPart extends BaseClientSideWebPart<IPanthemaWebP
     const colorUsage = colorBlocksValues.filter(
       (color, index, self) => {
         console.log(color);
+        color = color.toString();
         return self.indexOf(color) === index
           && color.indexOf('ms-font') === -1
           && color.indexOf('none') === -1;

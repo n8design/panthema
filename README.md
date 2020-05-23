@@ -1,8 +1,8 @@
 # PANTHEMA - Webpart
 
-!["Panthema screen as it is embeded in SharePoint"](https://github.com/n8design/panthema/blob/master/docs/assets/panthema-logo.png?raw=true "Panthema screen as it is embeded in SharePoint")
+!["Panthema screen as it is embedded in SharePoint"](https://github.com/n8design/panthema/blob/master/docs/assets/panthema-logo.png?raw=true "Panthema screen as it is embeded in SharePoint")
 
-Panthema is a web part that shows all used theme colors on SharePoint site. It display the color information as well ass and the applied theme slots. This web part is useful to show the full spectrum on where colors from the theme have been applied on background and text colors. It can be used for debugging as well as show and document themes.
+Panthema is a web part that shows all used theme colors on SharePoint site. It displays the color information as well as the applied theme slots. This web part is useful to show the full spectrum on where colors from the theme have been applied on background and text colors. It can be used for debugging as well as show and document themes.
 
 !["Panthema video preview"](https://github.com/n8design/panthema/blob/master/docs/assets/panthema-video.gif?raw=true "Panthema in action")
 

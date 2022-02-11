@@ -33,7 +33,7 @@
     "@types/chai": "3.4.34",
     "@types/handlebars": "^4.0.40",
     "@types/mocha": "2.2.38",
-    "ajv": "~5.2.2",
+    "ajv": "~6.12.3",
     "gulp": "~3.9.1",
     "gulp-sequence": "1.0.0",
     "gulp-stylelint": "^8.0.0",
